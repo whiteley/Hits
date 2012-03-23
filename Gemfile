@@ -1,4 +1,5 @@
 source "http://rubygems.org"
+gem "json"
 gem "puma"
 gem "rake"
 gem "redis"
