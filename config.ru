@@ -1,8 +1,4 @@
-#\ -s puma
-require 'rubygems'
-require 'bundler'
-
-Bundler.require
+require 'bundler/setup'
 
 require './hits'
 run Hits

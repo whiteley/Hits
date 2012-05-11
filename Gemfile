@@ -1,4 +1,4 @@
-source "http://rubygems.org"
-gem "puma"
-gem "redis"
-gem "sinatra"
+source 'https://rubygems.org'
+
+gem 'redis'
+gem 'sinatra'

@@ -1,22 +1,15 @@
+<!doctype html>
 <html>
-  <style>
-    body {
-      background: #c6dee8;
-      color: #838383;
-      font-family: "Helvetica Neue";
-      margin: 0;
-      padding: 0;
-    }
-    table {
-      font-size: 300px;
-      font-weight: 200;
-    }
-  </style>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Hits</title>
+    <link rel='stylesheet' type='text/css' href='/css/style.css' />
+  </head>
   <body>
-    <table width="100%" height="100%">
-      <tr><td valign="middle" align="center">
-          <%= @count %>
-      </td></tr>
-    </table>
+    <div id='content'>
+      <div id='hits'>
+        <%= @count %>
+      </div>
+    </div>
   </body>
 </html>
